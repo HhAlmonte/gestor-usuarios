@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #322D39;
+  color: #fff;
+  font-family: 'Roboto', arial;
+}
+
+.contentWrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWrapper .container {
+  background: #fff;
+  color: #F72C25;
+  padding: 3rem 5rem;
+}
+
+.contentWrapper .container forms {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.contentWrapper .container forms input {
+  margin: .5rem 0;
+  color: #322D39;
+  outline: none;
+  padding: 1.5rem 1rem;
+  border: solid 1px #322D39;
+}
+
+.contentWrapper .container forms input:focus {
+  border-color: #F72C25;
+}
+
+.contentWrapper .container forms button {
+  padding: 1rem;
+  color: #fff;
+  background: #F72C25;
+  border: none;
+  cursor: pointer;
+  transition: background .7s;
+}
+
+.contentWrapper .container forms button:hover {
+  background: #FF6B6B;
+}
+
+.contentWrapper .container forms .__container {
+  text-align: center;
+}
+
+.contentWrapper .container forms .__container a {
+  display: inline-block;
+  color: #F72C25;
+  margin: 1rem 0;
+  text-decoration: none;
+}
+
+.contentWrapper .container forms .__container a:hover {
+  text-decoration: underline;
+}
